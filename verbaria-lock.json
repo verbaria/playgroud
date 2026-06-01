@@ -1,0 +1,46 @@
+{
+  "lockVersion" : 1,
+  "server" : "https://i.verbaria.org/",
+  "project" : "playground",
+  "projectVersion" : "master",
+  "generatedAt" : "2026-06-01T11:37:11.650023583Z",
+  "documents" : {
+    "messages" : {
+      "source" : {
+        "revision" : 4
+      },
+      "translations" : {
+        "de-DE" : {
+          "sig" : "37537099012835e0475476a2ac9ba73b",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        },
+        "es-ES" : {
+          "sig" : "37537099012835e0475476a2ac9ba73b",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        },
+        "fr-FR" : {
+          "sig" : "37537099012835e0475476a2ac9ba73b",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        },
+        "it-IT" : {
+          "sig" : "37537099012835e0475476a2ac9ba73b",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        },
+        "pt-BR" : {
+          "sig" : "37537099012835e0475476a2ac9ba73b",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    }
+  }
+}

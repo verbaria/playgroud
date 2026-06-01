@@ -1,0 +1,10 @@
+{
+  "url" : "https://i.verbaria.org/",
+  "project" : "playground",
+  "projectVersion" : "master",
+  "projectType" : "properties",
+  "srcDir" : "i18n",
+  "transDir" : "i18n",
+  "includes" : "messages.properties",
+  "targetLocales" : [ "fr-FR", "de-DE", "es-ES", "it-IT", "pt-BR" ]
+}

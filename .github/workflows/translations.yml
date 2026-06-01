@@ -1,0 +1,32 @@
+name: Sync translations
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: verbaria-translations
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: sync
+        uses: verbaria/translate-sync@v1
+        with:
+          server-url: https://i.verbaria.org/
+          username: ${{ vars.VERBARIA_USERNAME }}
+          api-key: ${{ secrets.VERBARIA_API_KEY }}
+          # projectType "properties" + the 5 target locales come from verbaria.json
+          pull-type: trans
+
+      - if: steps.sync.outputs.changed == 'true'
+        run: echo "Opened translation PR ${{ steps.sync.outputs.pr-url }}"
