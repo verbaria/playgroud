@@ -3,15 +3,16 @@
   "server" : "https://i.verbaria.org/",
   "project" : "playground",
   "projectVersion" : "master",
-  "generatedAt" : "2026-06-01T15:18:59.076710217Z",
+  "generatedAt" : "2026-06-01T20:52:14.205746110Z",
   "documents" : {
     "messages" : {
       "source" : {
-        "revision" : 6
+        "revision" : 6,
+        "sig" : "b64147710f14189100c7553b185bbe1b"
       },
       "translations" : {
         "de-DE" : {
-          "sig" : "2e263a4c8922bf03f852ec879f149345",
+          "sig" : "a0152e0f78b8ef99d65fc10bc442ff89",
           "state" : "Approved",
           "total" : 5,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
