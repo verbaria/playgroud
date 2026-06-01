@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - id: sync
-        uses: verbaria/translate-sync@v1
+        uses: verbaria/translate-sync@master
         with:
           server-url: https://i.verbaria.org/
           username: ${{ vars.VERBARIA_USERNAME }}
