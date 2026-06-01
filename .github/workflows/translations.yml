@@ -26,7 +26,8 @@ jobs:
           username: ${{ vars.VERBARIA_USERNAME }}
           api-key: ${{ secrets.VERBARIA_API_KEY }}
           # projectType "properties" + the 5 target locales come from verbaria.json
-          pull-type: trans
+          # "both" so editor source edits sync back too, not just translations.
+          pull-type: both
 
       - if: steps.sync.outputs.changed == 'true'
         run: echo "Opened translation PR ${{ steps.sync.outputs.pr-url }}"
