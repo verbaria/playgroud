@@ -3,7 +3,7 @@
   "server" : "https://i.verbaria.org/",
   "project" : "playground",
   "projectVersion" : "master",
-  "generatedAt" : "2026-06-01T21:04:48.436753718Z",
+  "generatedAt" : "2026-06-02T08:38:13.531275041Z",
   "documents" : {
     "messages" : {
       "source" : {
@@ -13,6 +13,12 @@
       "translations" : {
         "de-DE" : {
           "sig" : "a0152e0f78b8ef99d65fc10bc442ff89",
+          "state" : "Approved",
+          "total" : 5,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        },
+        "en-US" : {
+          "sig" : "aed1f1e82cdb94297d474d51719c0f6d",
           "state" : "Approved",
           "total" : 5,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
